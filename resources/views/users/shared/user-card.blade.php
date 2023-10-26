@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="px-2 mt-4">
-            <h5 class="fs-5"> Bio : </h5>
+            <h5 class="fs-5"> Biografía : </h5>
                 <p class="fs-6 fw-light">
                     {{ $user->bio }}
                 </p>
