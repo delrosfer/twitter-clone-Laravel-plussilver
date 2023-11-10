@@ -1,5 +1,7 @@
 @extends('layout.layout')
 
+@section('title', 'Ingresar')
+
 @section('content')
  <div class="row justify-content-center">
     <div class="col-12 col-sm-8 col-md-6">
@@ -27,7 +29,7 @@
                 <input type="submit" name="submit" class="btn btn-dark btn-md" value="Ingresar">
             </div>
             <div class="text-right mt-2">
-                <a href="/register" class="text-dark">Registrate Aqui</a>
+                <a href="/register" class="text-dark">Regístrate Aqui</a>
             </div>
         </form>
     </div>

@@ -1,5 +1,7 @@
 @extends('layout.layout')
 
+@section('title', 'Ver Publicación')
+
 @section('content')
     <div class="container py-4">
         <div class="row">

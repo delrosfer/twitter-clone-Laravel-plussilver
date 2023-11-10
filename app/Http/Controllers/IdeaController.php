@@ -23,6 +23,11 @@ class IdeaController extends Controller
 
         $validated['user_id'] = auth()->id();
 
+        //$name = $request->file('image')->getClientOriginalName();
+
+        //$request->file('image')->store('public/ideas/');
+
+
         Idea::create($validated);
 
         Alert::info('Publicación creada Exitosamente!!', 'Tu publicación ha sido publicada Exitosamente');
@@ -60,6 +65,13 @@ class IdeaController extends Controller
         $this->authorize('update', $idea);
         
         $validated = $request->validated();
+
+        if ($request->has('image')) {
+            $imagePath = $request->file('image')->store('ideas', 'public');
+            $validated['image'] = $imagePath;
+            Storage::disk('public')->delete($user->image ?? '');
+            
+        }
 
         $idea->update($validated);
 

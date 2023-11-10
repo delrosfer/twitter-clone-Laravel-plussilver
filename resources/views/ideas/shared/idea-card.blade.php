@@ -52,7 +52,7 @@
             @include('ideas.shared.like-button')
             <div>
                 <span class="fs-6 fw-light text-muted"> <span class="fas fa-clock"> </span>
-                    {{ $idea->created_at->diffForHumans() }} </span>
+                    {{ $idea->created_at->diffForHumans(['parts' => 2]) }} </span>
             </div>
         </div>
         @include('ideas.shared.comments-box')

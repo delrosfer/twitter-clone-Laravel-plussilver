@@ -1,6 +1,7 @@
 <div class="card mt-3">
     <div class="card-header pb-0 border-0">
-        <h5 class="">Who to follow</h5>
+        <h5 class="">A quién seguir...</h5>
+        <hr>
     </div>
     <div class="card-body">
         <div class="hstack gap-2 mb-3">
@@ -28,7 +29,7 @@
                     class="fa-solid fa-plus"> </i></a>
         </div>
         <div class="d-grid mt-3">
-            <a class="btn btn-sm btn-primary-soft" href="#!">Show More</a>
+            <a class="btn btn-sm btn-primary-soft" href="#!">Mostrar más...</a>
         </div>
     </div>
 </div>

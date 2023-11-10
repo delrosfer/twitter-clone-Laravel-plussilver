@@ -1,5 +1,7 @@
 @extends('layout.layout')
 
+@section('title', 'Terminos y Condiciones')
+
 @section('content')
     <div class="row">
         <div class="col-3">
@@ -9,8 +11,11 @@
             <h1>Términos y condiciones</h1>
             <div>
                 Términos y Condiciones de Uso
-
+                <br>
+                <br>
                 INFORMACIÓN RELEVANTE
+                <br>
+                <br>
                 Es requisito necesario para la adquisición de los servicios que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. 
                 <br>
                 <br>
